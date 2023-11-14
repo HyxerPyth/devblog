@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Menlo Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Menlo Regular'), url('Menlo-Regular.woff') format('woff');
+}
+
+body {
+    font-family: 'Menlo Regular';
+    background-color: #1a1a1a;
+    color: #34f912;
+    margin: 0;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 20px;
+    color: #34f912;
+}
+
+.top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: medium;
+    font-style: bold;
+    background-color: #1a1a1a;
+    z-index: 1000;
+    padding: 10px 20px; /* Adjust padding based on your design */
+    margin: 0;
+}
+
+.wp-block-image img {
+    box-sizing: border-box;
+    height: auto;
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+.block-blog {
+    padding: 20px;
+}
+
+.blog {
+    font-size: small;
+    color: #34f912;
+    margin-right: 40%;
+}
+
+h2 {
+    margin: 0;
+    padding: 10px;
+    background-color: #1a1a1a;
+}
+
+section p {
+    margin-bottom: 50px; /* Adjust the value as needed */
+}
